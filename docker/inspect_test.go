@@ -2,7 +2,7 @@ package docker
 
 import "testing"
 
-func TestplitHostname(t *testing.T) {
+func TestsplitHostname(t *testing.T) {
 	var crcthostnames = []struct {
 		a, b, c string
 	}{
